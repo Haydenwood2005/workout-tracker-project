@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Workout Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Workout Tracker</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Workouts</a>
+            <a href="#">Progress</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h2>Track Your Workouts</h2>
+
+            <p>
+                Create routines, record your workouts
+                and track your progress over time.
+            </p>
+
+            <button id="apiButton">
+                Check API Connection
+            </button>
+
+            <p id="apiStatus"></p>
+        </section>
+
+        <section class="dashboard">
+
+            <div class="card">
+                <h3>Workouts</h3>
+                <p>0 workouts completed</p>
+            </div>
+
+            <div class="card">
+                <h3>Routines</h3>
+                <p>0 routines created</p>
+            </div>
+
+            <div class="card">
+                <h3>Progress</h3>
+                <p>Start tracking your progress.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Workout Tracker</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
