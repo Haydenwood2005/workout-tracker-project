@@ -9,13 +9,7 @@ creating workout routines, and monitoring progress over time.
 - Backend: Python / FastAPI
 - Database: MySQL
 
-## Current Features
+## Currently Working On
 
-- [ ] Basic frontend
-- [ ] FastAPI backend
-- [ ] MySQL database
-- [ ] Create workouts
-- [ ] Track exercises
-- [ ] Track sets, reps and weight
-- [ ] View workout history
-- [ ] Compare progress
+- structuring database in MySQL
+
