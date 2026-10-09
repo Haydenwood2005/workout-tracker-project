@@ -12,4 +12,6 @@ creating workout routines, and monitoring progress over time.
 ## Currently Working On
 
 - structuring database in MySQL
+- developing endpoints for FastAPI
+  
 
